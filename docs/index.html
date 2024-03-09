@@ -9,6 +9,104 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <style>
+      .header {
+  /* adding the background gradient color */
+  background: radial-gradient(#fff, #f6bcbd);
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 25px;
+}
+.navtop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.navbar {
+  background-color: rgb(242, 143, 143);
+  z-index: 9;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 60px 0px rgba(246, 4, 4, 0.75);
+  /* margin-bottom: 30px; */
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+p {
+  color: aliceblue;
+}
+nav a:hover {
+  color: rgb(3, 3, 3);
+  transition: all 1s ease;
+}
+.menu-icon {
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-2 img {
+  width: 100%;
+  padding: 50px 0;
+}
+.col-2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  /* margin: 25px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.col-2 p {
+  font-size: small;
+  color: black;
+}
+.btn {
+  display: inline-block;
+  background-color: coral;
+  color: floralwhite;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  transition: background0.5s;
+}
+.btn:hover {
+  background: rgb(22, 4, 7);
+}
+
+.header .row {
+  margin-top: 50px;
+}
+    </style>
   </head>
   <body>
     <!-- creation of the navbar -->
