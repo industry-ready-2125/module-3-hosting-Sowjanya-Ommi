@@ -9,104 +9,6 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <style>
-      .header {
-  /* adding the background gradient color */
-  background: radial-gradient(#fff, #f6bcbd);
-}
-.container {
-  max-width: 1300px;
-  margin: auto;
-  padding: 25px;
-}
-.navtop {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-}
-.navbar {
-  background-color: rgb(242, 143, 143);
-  z-index: 9;
-  padding: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
-  display: flex;
-  align-items: center;
-  box-shadow: 0px 3px 60px 0px rgba(246, 4, 4, 0.75);
-  /* margin-bottom: 30px; */
-}
-nav {
-  flex: 1;
-  text-align: right;
-}
-nav ul {
-  display: inline-block;
-  list-style-type: none;
-}
-nav ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-a {
-  text-decoration: none;
-  color: aliceblue;
-}
-p {
-  color: aliceblue;
-}
-nav a:hover {
-  color: rgb(3, 3, 3);
-  transition: all 1s ease;
-}
-.menu-icon {
-  width: 28px;
-  margin-left: 20px;
-  display: none;
-}
-
-.row {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.col-2 {
-  flex-basis: 50%;
-  min-width: 300px;
-}
-.col-2 img {
-  width: 100%;
-  padding: 50px 0;
-}
-.col-2 h1 {
-  font-size: 50px;
-  line-height: 60px;
-  /* margin: 25px; */
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.col-2 p {
-  font-size: small;
-  color: black;
-}
-.btn {
-  display: inline-block;
-  background-color: coral;
-  color: floralwhite;
-  padding: 10px;
-  border-radius: 20px;
-  margin-top: 10px;
-  transition: background0.5s;
-}
-.btn:hover {
-  background: rgb(22, 4, 7);
-}
-
-.header .row {
-  margin-top: 50px;
-}
-    </style>
   </head>
   <body>
     <!-- creation of the navbar -->
@@ -114,25 +16,25 @@ nav a:hover {
         <div class="container">
         <div class="navbar navtop">
           <div class="logo">
-            <img src="images/logo.png" width="125px" alt="" />
+            <img src="logo.png" width="125px" alt="" />
           </div>
           <nav>
             <ul id="MenuItems">
-              <li><a href="homept.html">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li><a href="page02.html">Products</a></li>
               <li><a href="aboutawd.html">About</a></li>
               <li><a href="contact.html">Contact</a></li>
-              <li><a href="page02.html">Account</a></li>
+              <li><a href="page03.html">Account</a></li>
             </ul>
           </nav>
-          <a href="page03.html"><img
+          <a href="page04.html"><img
             class="image"
-            src="images/cart.png"
+            src="cart.png"
             width="30px"
             height="30px"
             alt=""
           /></a>
-          <img src="images/menu.png" class="menu-icon" onclick="menutoggle()"alt="">
+          <img src="menu.png" class="menu-icon" onclick="menutoggle()"alt="">
         </div>
   
         <!-- adding content -->
@@ -147,7 +49,7 @@ nav a:hover {
             <a href="" class="btn">Explore now &#8594</a>
           </div>
           <div class="col-2">
-            <img src="images/image1.png" alt="" />
+            <img src="image1.png" alt="" />
           </div>
         </div>
       </div>
@@ -158,13 +60,13 @@ nav a:hover {
         <div class="small-container">
         <div class="row">
             <div class="col-3">
-                <img src="images/category-1.jpg" alt="">
+                <img src="category-1.jpg" alt="">
             </div>
             <div class="col-3">
-                <img src="images/category-2.jpg" alt="">
+                <img src="category-2.jpg" alt="">
             </div>
             <div class="col-3">
-                <img src="images/category-3.jpg" alt="">
+                <img src="category-3.jpg" alt="">
             </div>
         </div>
     </div>
@@ -175,7 +77,7 @@ nav a:hover {
         <h2 class="title">Featured Products</h2>
         <div class="row">
             <div class="col-4">
-                <a href="productdetapr.html"><img src="images/product-1.jpg" alt=""></a>
+                <a href="productdetapr.html"><img src="product-1.jpg" alt=""></a>
                 <h4>Red printed Tshirt</h4>                
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -188,7 +90,7 @@ nav a:hover {
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product-2.jpg" alt="">
+                <img src="product-2.jpg" alt="">
                 <h4>Red printed Tshirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -200,7 +102,7 @@ nav a:hover {
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product-3.jpg" alt="">
+                <img src="product-3.jpg" alt="">
                 <h4>Red printed Tshirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -213,7 +115,7 @@ nav a:hover {
             </div>
     
             <div class="col-4">
-                <img src="images/product-4.jpg" alt="">
+                <img src="product-4.jpg" alt="">
                 <h4>Red printed Tshirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -229,7 +131,7 @@ nav a:hover {
         <h2 class="title">Latest Products</h2>
         <div class="row">
             <div class="col-4">
-                <a href="productdetapr.html"><img src="images/product-1.jpg" alt=""></a>
+                <a href="productdetapr.html"><img src="product-1.jpg" alt=""></a>
                 <h4>Red printed Tshirt</h4>                
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -242,7 +144,7 @@ nav a:hover {
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product-2.jpg" alt="">
+                <img src="product-2.jpg" alt="">
                 <h4>Red printed Tshirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -254,7 +156,7 @@ nav a:hover {
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product-3.jpg" alt="">
+                <img src="product-3.jpg" alt="">
                 <h4>Red printed Tshirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -267,7 +169,7 @@ nav a:hover {
             </div>
     
             <div class="col-4">
-                <img src="images/product-4.jpg" alt="">
+                <img src="product-4.jpg" alt="">
                 <h4>Red printed Tshirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -282,7 +184,7 @@ nav a:hover {
 
         <div class="row">
             <div class="col-4">
-                <img src="images/product-1.jpg" alt="">
+                <img src="product-1.jpg" alt="">
                 <h4>Red printed Tshirt</h4>                
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -295,7 +197,7 @@ nav a:hover {
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product-2.jpg" alt="">
+                <img src="product-2.jpg" alt="">
                 <h4>Red printed Tshirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -307,7 +209,7 @@ nav a:hover {
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images/product-3.jpg" alt="">
+                <img src="product-3.jpg" alt="">
                 <h4>Red printed Tshirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -320,7 +222,7 @@ nav a:hover {
             </div>
     
             <div class="col-4">
-                <img src="images/product-4.jpg" alt="">
+                <img src="product-4.jpg" alt="">
                 <h4>Red printed Tshirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
@@ -339,7 +241,7 @@ nav a:hover {
     <div class="small-container">
         <div class="row">
             <div class="col-2">
-                <img src="images/exclusive.png" class="offerimg" alt="">
+                <img src="exclusive.png" class="offerimg" alt="">
             </div>
             <div class="col-2">
                 <P>Exclusively available on REDSTORE</P>
@@ -364,7 +266,7 @@ nav a:hover {
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <img src="images/user-1.png" alt="">
+                <img src="user-1.png" alt="">
                 <h3>Sean parker</h3>
             </div>
             <div class="col-3">
@@ -377,7 +279,7 @@ nav a:hover {
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <img src="images/user-2.png" alt="">
+                <img src="user-2.png" alt="">
                 <h3>Mike smith</h3>
             </div>
             <div class="col-3">
@@ -390,7 +292,7 @@ nav a:hover {
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-o"></i>
                 </div>
-                <img src="images/user-3.png" alt="">
+                <img src="user-3.png" alt="">
                 <h3>Mobil rose</h3>
             </div>
         </div>
@@ -402,19 +304,19 @@ nav a:hover {
     <div class="small-container">
         <div class="row">
             <div class="col-5">
-                <img src="images/logo-godrej.png" alt="">
+                <img src="logo-godrej.png" alt="">
             </div>
             <div class="col-5">
-                <img src="images/logo-coca-cola.png" alt="">
+                <img src="logo-coca-cola.png" alt="">
             </div>
             <div class="col-5">
-                <img src="images/logo-oppo.png" alt="">
+                <img src="logo-oppo.png" alt="">
             </div>
             <div class="col-5">
-                <img src="images/logo-paypal.png" alt="">
+                <img src="logo-paypal.png" alt="">
             </div>
             <div class="col-5">
-                <img src="images/logo-philips.png" alt="">
+                <img src="logo-philips.png" alt="">
             </div>
         </div>
     </div>
@@ -428,15 +330,15 @@ nav a:hover {
                 <h3>Download our App</h3>
                 <p>Download our app for android and  ios mobile phone</p>
                 <div class="app_logo">
-                    <img src="images/play-store.png" alt="",width="125px">
-                    <img src="images/app-store.png" alt="">
+                    <img src="play-store.png" alt="",width="125px">
+                    <img src="app-store.png" alt="">
                     
                 </div>
 
             </div>
 
             <div class="footer-col2">
-                <img src="images/logo-white.png" alt="">
+                <img src="logo-white.png" alt="">
                 <p>Our purpose is to sustainbly make the pleasure and benefits of sports accessible to the many</p>
             </div>
 
